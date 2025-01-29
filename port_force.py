@@ -84,7 +84,7 @@ def main():
         else:
             assert False, "Unhandled Option"
 
-    # Check if userlist exists
+    # Check if userlist exists:
     if not os.path.exists(var_user):
         sys.stderr.write(bcolors.FAIL + "[ERROR] - Userlist was not found!\n" + bcolors.ENDC)
         sys.exit(1)
